@@ -38,7 +38,7 @@ public class JobRecommendationController {
                     .body(Map.of("error", "Error al comunicarse con Flask: " + e.getMessage()));
         }
     }
-
+    // para verificar
     @GetMapping("/verificar-flask")
     public ResponseEntity<?> verificarFlask() {
         try {
